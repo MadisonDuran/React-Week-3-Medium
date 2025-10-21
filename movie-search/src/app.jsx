@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home.jsx";
-import Detail from "./pages/detail.jsx";
+import Detail from "./pages/Detail.jsx";
 
 export default function App() {
     return (
@@ -10,5 +10,5 @@ export default function App() {
                 <Route path="/movie/:imdbID" element={<Detail />} />
             </Routes>
         </BrowserRouter>
-    )
-};
+    );
+}
